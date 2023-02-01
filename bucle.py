@@ -22,4 +22,39 @@ i=1
 while(i<31):
     display.scroll(str(i))
     i=i+5
+______________________________________________________-    
+    (nuevo)
+    from microbit import*
+
+for x in range(5):
+    display.set_pixel(x,0,9)
+    sleep(500)
+    display.set_pixel(x,1,9)
+    sleep(500)
+    display.clear()
+    sleep(500)
+    
+   __________________________________
+from microbit import*
+
+#mostrar una lista de vocales 
+
+lista_numeros_primos = [2,3,5,7,11,13]
+
+for i in lista_numeros_primos: 
+    display.scroll(i)
+    sleep(1000)
+    _______________________________________________
+    #import go at the top
+from microbit import*
+
+#mostrar una lista de vocales 
+lista_vocales = ["A","E","I","O","U"]
+
+index = 0
+
+while(index<len(lista_vocales)):
+    display.show(lista_vocales[index])
+    index = index + 1
+    sleep(1000)
 
