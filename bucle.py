@@ -57,4 +57,18 @@ while(index<len(lista_vocales)):
     display.show(lista_vocales[index])
     index = index + 1
     sleep(1000)
+    _________________________________________________________
+    ##################
+# ¿Que imprime?  #
+##################
+from microbit import * 
+
+
+
+texto = "Microbit"
+i=0
+while(i<len(texto)):
+    display.show(texto[i])
+    i = i + 2
+    sleep(500)
 
